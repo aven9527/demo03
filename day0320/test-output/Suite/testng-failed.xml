@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="test1" value="6"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="Testngpack.sizeyanjeTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="cheng" invocation-numbers="0 1 2"/>
+          <include name="add" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Testngpack.sizeyanjeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
